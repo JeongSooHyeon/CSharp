@@ -19,5 +19,10 @@ class Program
         Console.WriteLine(BitConverter.ToString(boolBytes));
         Console.WriteLine(BitConverter.ToString(shortBytes));
         Console.WriteLine(BitConverter.ToString(intBytes));
+
+        // 숫자를 문자열로 직렬화
+        int n = 1652300;
+        string text = n.ToString(); // 문자열로 직렬화
+        int result = int.Parse(text);   // 문자열로부터 숫자를 역직렬화
     }
 }

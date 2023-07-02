@@ -21,6 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-5-1_Replace", "Ex6-5-1_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-6_BitConverter", "Ex6-6_BitConverter\Ex6-6_BitConverter.csproj", "{32713AE8-2D02-44DD-94CC-1DEE8B891200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-8_MemoryStream", "Ex6-8_MemoryStream\Ex6-8_MemoryStream.csproj", "{506A4651-5D34-4D3E-85D1-8866F37E4F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-9_StreamWrite", "Ex6-9_StreamWrite\Ex6-9_StreamWrite.csproj", "{BCA72B58-FBEA-462F-B0EE-D11445DB8C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-10_BinaryWriter_BinaryReader", "Ex6-10_BinaryWriter_BinaryReader\Ex6-10_BinaryWriter_BinaryReader.csproj", "{596B070A-35C1-482A-850B-080E38C9400B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-12_BinaryFormatter", "Ex6-12_BinaryFormatter\Ex6-12_BinaryFormatter.csproj", "{4740105B-5025-474C-8CEC-60F9EC7D90AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-3-6_XmlSerializer", "Ex6-3-6_XmlSerializer\Ex6-3-6_XmlSerializer.csproj", "{A77FC0A0-24B2-4FDE-AE46-110F906BF170}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +73,26 @@ Global
 		{32713AE8-2D02-44DD-94CC-1DEE8B891200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32713AE8-2D02-44DD-94CC-1DEE8B891200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32713AE8-2D02-44DD-94CC-1DEE8B891200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506A4651-5D34-4D3E-85D1-8866F37E4F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506A4651-5D34-4D3E-85D1-8866F37E4F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506A4651-5D34-4D3E-85D1-8866F37E4F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506A4651-5D34-4D3E-85D1-8866F37E4F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA72B58-FBEA-462F-B0EE-D11445DB8C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA72B58-FBEA-462F-B0EE-D11445DB8C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA72B58-FBEA-462F-B0EE-D11445DB8C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA72B58-FBEA-462F-B0EE-D11445DB8C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596B070A-35C1-482A-850B-080E38C9400B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596B070A-35C1-482A-850B-080E38C9400B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596B070A-35C1-482A-850B-080E38C9400B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596B070A-35C1-482A-850B-080E38C9400B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4740105B-5025-474C-8CEC-60F9EC7D90AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4740105B-5025-474C-8CEC-60F9EC7D90AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4740105B-5025-474C-8CEC-60F9EC7D90AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4740105B-5025-474C-8CEC-60F9EC7D90AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77FC0A0-24B2-4FDE-AE46-110F906BF170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77FC0A0-24B2-4FDE-AE46-110F906BF170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77FC0A0-24B2-4FDE-AE46-110F906BF170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77FC0A0-24B2-4FDE-AE46-110F906BF170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
