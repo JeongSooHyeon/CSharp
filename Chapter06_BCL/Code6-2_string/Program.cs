@@ -57,6 +57,25 @@ class Program
         Console.WriteLine("Hello == World : " + ("Hello" == "World"));
         Console.WriteLine("Hello == HELLO: " + ("Hello" == "HELLO"));
         Console.WriteLine();
+        
+        // 기본 대소문자 구분, StringComparison.OrdinalIgnoreCase 안 구분, EndsWith, IndexOf, StartsWith
+        Console.WriteLine("==================================="); 
+        Console.WriteLine(txt + " EndsWith(\"WORLD\") : " + txt.EndsWith("WORLD", StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine();
+
+        Console.WriteLine(txt + " IndexOf(\"WORLD\") : " + txt.IndexOf("WORLD", StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine();
+
+        Console.WriteLine(txt + " StartsWith(\"HELLO\") : " + txt.StartsWith("HELLO", StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine();
+
+        // 문자열 비교 연산자(==)는 대소문자를 무시하는 기능은 없지만 Equals 메서드로 바꾸면 가능
+        Console.WriteLine("==================================="); 
+        txt = "Hello";
+
+        Console.WriteLine(txt + " == HELLO : " + (txt == "HELLO"));
+        Console.WriteLine(txt + " == HELLO : " + txt.Equals("HELLO", StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine() ;
     }
 
     private static void OutputArrayString(string[] arr)
