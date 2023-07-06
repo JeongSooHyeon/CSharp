@@ -79,11 +79,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit6-6-7_Delegate", "Unit6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex6-31_DelegateAsyncrouousCall", "Ex6-31_DelegateAsyncrouousCall\Ex6-31_DelegateAsyncrouousCall.csproj", "{52362D77-788F-4E64-AFA8-0A0BEB5D79AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit6-7-1_SystemNetIPAddress", "Unit6-7-1_SystemNetIPAddress\Unit6-7-1_SystemNetIPAddress.csproj", "{FA512A6F-86F9-4972-89CB-97B87E8641B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit6-7-1_SystemNetIPAddress", "Unit6-7-1_SystemNetIPAddress\Unit6-7-1_SystemNetIPAddress.csproj", "{FA512A6F-86F9-4972-89CB-97B87E8641B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit6-7-3_SystemNetIPEndPoint", "Unit6-7-3_SystemNetIPEndPoint\Unit6-7-3_SystemNetIPEndPoint.csproj", "{23B5F97F-AD06-4296-846F-A142306B235E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit6-7-3_SystemNetIPEndPoint", "Unit6-7-3_SystemNetIPEndPoint\Unit6-7-3_SystemNetIPEndPoint.csproj", "{23B5F97F-AD06-4296-846F-A142306B235E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-32_MyComputerIPAddress", "Ex6-32_MyComputerIPAddress\Ex6-32_MyComputerIPAddress.csproj", "{447760A8-D8A5-4312-A53A-5311D6529983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex6-32_MyComputerIPAddress", "Ex6-32_MyComputerIPAddress\Ex6-32_MyComputerIPAddress.csproj", "{447760A8-D8A5-4312-A53A-5311D6529983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-33_SocketProgram", "Ex6-33_SocketProgram\Ex6-33_SocketProgram.csproj", "{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex6-34_UDPSocketServerBinding", "Ex6-34_UDPSocketServerBinding\Ex6-34_UDPSocketServerBinding.csproj", "{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Es6-35_UDPServerSocket_Finally", "Es6-35_UDPServerSocket_Finally\Es6-35_UDPServerSocket_Finally.csproj", "{BC044417-158B-4F84-B57C-EF988751A199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -587,6 +593,42 @@ Global
 		{447760A8-D8A5-4312-A53A-5311D6529983}.Release|x64.Build.0 = Release|Any CPU
 		{447760A8-D8A5-4312-A53A-5311D6529983}.Release|x86.ActiveCfg = Release|Any CPU
 		{447760A8-D8A5-4312-A53A-5311D6529983}.Release|x86.Build.0 = Release|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Debug|x64.Build.0 = Debug|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Debug|x86.Build.0 = Debug|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Release|x64.ActiveCfg = Release|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Release|x64.Build.0 = Release|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Release|x86.ActiveCfg = Release|Any CPU
+		{50CBDF57-47EF-48C2-BC10-3DF0EC03CD04}.Release|x86.Build.0 = Release|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Debug|x64.Build.0 = Debug|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Debug|x86.Build.0 = Debug|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Release|x64.ActiveCfg = Release|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Release|x64.Build.0 = Release|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Release|x86.ActiveCfg = Release|Any CPU
+		{ABA7E666-3D72-4FB1-B3F8-91E5B39E350F}.Release|x86.Build.0 = Release|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Release|x64.Build.0 = Release|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC044417-158B-4F84-B57C-EF988751A199}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
