@@ -16,11 +16,12 @@ class Program
 
         // 클라이언트 소켓이 동작하는 스레드
         // 다중 UDP 클라이언트 실행
-        for (int i = 0; i < 3; ++i)
+        for (int i = 0; i < 3; i++)
         {
             Thread clientThread = new Thread(clientFunc);
             clientThread.IsBackground = true;
             clientThread.Start();
+            Thread.Sleep(3000);  
         }
 
         Console.WriteLine("종료하려면 아무 키나 누르세요...");
@@ -30,23 +31,25 @@ class Program
     private static void serverFunc(object obj)
     {
         // [서버 소켓 코드 작성]
-        using (Socket srvSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
+        using (Socket srvSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
         {
-            IPAddress ipAddress = IPAddress.Parse("0.0.0.0");
-            IPEndPoint endPoint = new IPEndPoint(ipAddress, 10200);
+            IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, 11200);
 
             srvSocket.Bind(endPoint);
-
-            byte[] recvBytes = new byte[1024];
-            EndPoint clientEP = new IPEndPoint(IPAddress.None, 0);
+            srvSocket.Listen(10);
 
             while (true)
             {
-                int nRecv = srvSocket.ReceiveFrom(recvBytes, ref clientEP);
+                Socket clntSocket = srvSocket.Accept();
+
+                byte[] recvBytes = new byte[1024];
+
+                int nRecv = clntSocket.Receive(recvBytes);
                 string txt = Encoding.UTF8.GetString(recvBytes, 0, nRecv);
 
                 byte[] sendBytes = Encoding.UTF8.GetBytes("Hello : " + txt);
-                srvSocket.SendTo(sendBytes, clientEP);
+                clntSocket.Send(sendBytes);
+                clntSocket.Close();
             }
         }
     }
@@ -54,26 +57,28 @@ class Program
     private static void clientFunc(object obj)
     {
         // [클라이언트 소켓 코드 작성]
-        Socket clntSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+        Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        EndPoint serverEP = new IPEndPoint(IPAddress.Loopback, 11200);
 
-        EndPoint serverEP = new IPEndPoint(IPAddress.Loopback, 10200);
-        EndPoint senderEP = new IPEndPoint(IPAddress.None, 0);
+        socket.Connect(serverEP);
 
-        int nTimes = 5;
-
-        while (nTimes-- > 0)
+        byte[] buf = Encoding.UTF8.GetBytes(DateTime.Now.ToString());
+        socket.Send(buf);
+        
+        // 예외 처리
+        try
         {
-            byte[] buf = Encoding.UTF8.GetBytes(DateTime.Now.ToString());
-            clntSocket.SendTo(buf, serverEP);
-
             byte[] recvBytes = new byte[1024];
-            int nRecv = clntSocket.ReceiveFrom(recvBytes, ref senderEP);
+            int nRecv = socket.Receive(recvBytes);
             string txt = Encoding.UTF8.GetString(recvBytes, 0, nRecv);
 
             Console.WriteLine(txt);
-            Thread.Sleep(1000);
         }
-        clntSocket.Close();
+        catch (SocketException)
+        {
+        }
+
+        socket.Close();
         Console.WriteLine("UDP Client socket : Closed");
     }
 }
