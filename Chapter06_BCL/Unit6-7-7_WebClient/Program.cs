@@ -70,7 +70,7 @@ class Program
         // 응답 내용을 담고 있는 Stream으로부터 문자열을 반환해서 출력한다.
         using (StreamReader sr = new StreamReader(resp.GetResponseStream()))
         {
-            string responseText = sr.ReadToEnd();
+            //string responseText = sr.ReadToEnd();
             Console.WriteLine(responseText);
             File.WriteAllText("naverpage.html", responseText);
         }
