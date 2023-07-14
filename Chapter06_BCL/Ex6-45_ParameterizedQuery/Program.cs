@@ -28,15 +28,15 @@ class Program
 
             // @Birth 파라미터 준비
             SqlParameter paramBirth = new SqlParameter("@Birth", SqlDbType.Date);
-            paramName.Value = birth;
+            paramBirth.Value = birth;
 
             // @Email 파라미터 준비
             SqlParameter paramEmail = new SqlParameter("@Email", SqlDbType.NVarChar, 100);
-            paramName.Value = email;
+            paramEmail.Value = email;
 
             // @Family 파라미터 준비
             SqlParameter paramFamily = new SqlParameter("@Family", SqlDbType.TinyInt);
-            paramName.Value = family;
+            paramFamily.Value = family;
 
             // cmd.Parameters 컬렉션에 SqlParameter 개체를 추가
             cmd.Parameters.Add(paramName);
