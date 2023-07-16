@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.6.33801.468
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-4_ExtensionMethod", "Ex8-4_ExtensionMethod\Ex8-4_ExtensionMethod.csproj", "{FAEFB387-C47D-47CB-8405-942C526DA860}"
 EndProject
@@ -11,13 +11,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-6_Lambda_Code", "Ex8-6_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-7_Func_Action_Delegate", "Ex8-7_Func_Action_Delegate\Ex8-7_Func_Action_Delegate.csproj", "{3A920FC9-12C9-4425-8E71-29FFA9CF0440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit8-8-1-2_ForEach", "Unit8-8-1-2_ForEach\Unit8-8-1-2_ForEach.csproj", "{229D7988-083C-4BC7-95CC-00887B131DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit8-8-1-2_ForEach", "Unit8-8-1-2_ForEach\Unit8-8-1-2_ForEach.csproj", "{229D7988-083C-4BC7-95CC-00887B131DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-8_FindAll", "Ex8-8_FindAll\Ex8-8_FindAll.csproj", "{0C5A18ED-2B90-4787-AAFB-C4EC30681830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-8_FindAll", "Ex8-8_FindAll\Ex8-8_FindAll.csproj", "{0C5A18ED-2B90-4787-AAFB-C4EC30681830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-9_Where", "Ex8-9_Where\Ex8-9_Where.csproj", "{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-9_Where", "Ex8-9_Where\Ex8-9_Where.csproj", "{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit8-8-1-2_Select", "Unit8-8-1-2_Select\Unit8-8-1-2_Select.csproj", "{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit8-8-1-2_Select", "Unit8-8-1-2_Select\Unit8-8-1-2_Select.csproj", "{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit8-8-2_Lambda_Data", "Unit8-8-2_Lambda_Data\Unit8-8-2_Lambda_Data.csproj", "{25E60061-B002-42AB-A96E-28B5C3D1C572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-10_ExpressionTree", "Ex8-10_ExpressionTree\Ex8-10_ExpressionTree.csproj", "{76CC388A-A51B-4E47-A03D-FC6C67081109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-11_LINQ-SELECT", "Ex8-11_LINQ-SELECT\Ex8-11_LINQ-SELECT.csproj", "{1474FD52-FACD-4EC5-A28C-94027BCD96F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit8-9-1_LINQ2", "Unit8-9-1_LINQ2\Unit8-9-1_LINQ2.csproj", "{AB577BF1-4126-4339-822F-1732B273D735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-12_Max_LINQ", "Ex8-12_Max_LINQ\Ex8-12_Max_LINQ.csproj", "{B92C6E6C-74B1-440A-ACAE-469E70394E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-13_LINQ_LazyExecute", "Ex8-13_LINQ_LazyExecute\Ex8-13_LINQ_LazyExecute.csproj", "{50910890-CF7C-41F6-9455-B8C0A807C64E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-14_LINQtoXML", "Ex8-14_LINQtoXML\Ex8-14_LINQtoXML.csproj", "{AD838508-84ED-4A88-8378-F510968248F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +71,34 @@ Global
 		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E60061-B002-42AB-A96E-28B5C3D1C572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E60061-B002-42AB-A96E-28B5C3D1C572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E60061-B002-42AB-A96E-28B5C3D1C572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E60061-B002-42AB-A96E-28B5C3D1C572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CC388A-A51B-4E47-A03D-FC6C67081109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CC388A-A51B-4E47-A03D-FC6C67081109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CC388A-A51B-4E47-A03D-FC6C67081109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CC388A-A51B-4E47-A03D-FC6C67081109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1474FD52-FACD-4EC5-A28C-94027BCD96F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1474FD52-FACD-4EC5-A28C-94027BCD96F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1474FD52-FACD-4EC5-A28C-94027BCD96F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1474FD52-FACD-4EC5-A28C-94027BCD96F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB577BF1-4126-4339-822F-1732B273D735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB577BF1-4126-4339-822F-1732B273D735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB577BF1-4126-4339-822F-1732B273D735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB577BF1-4126-4339-822F-1732B273D735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92C6E6C-74B1-440A-ACAE-469E70394E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92C6E6C-74B1-440A-ACAE-469E70394E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92C6E6C-74B1-440A-ACAE-469E70394E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92C6E6C-74B1-440A-ACAE-469E70394E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50910890-CF7C-41F6-9455-B8C0A807C64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50910890-CF7C-41F6-9455-B8C0A807C64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50910890-CF7C-41F6-9455-B8C0A807C64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50910890-CF7C-41F6-9455-B8C0A807C64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD838508-84ED-4A88-8378-F510968248F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD838508-84ED-4A88-8378-F510968248F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD838508-84ED-4A88-8378-F510968248F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD838508-84ED-4A88-8378-F510968248F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
