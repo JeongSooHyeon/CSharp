@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-4_ExtensionMethod", "Ex8-4_ExtensionMethod\Ex8-4_ExtensionMethod.csproj", "{FAEFB387-C47D-47CB-8405-942C526DA860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-4_ExtensionMethod", "Ex8-4_ExtensionMethod\Ex8-4_ExtensionMethod.csproj", "{FAEFB387-C47D-47CB-8405-942C526DA860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-5_LambdaExpression_AnonymousMethod", "Ex8-5_LambdaExpression_AnonymousMethod\Ex8-5_LambdaExpression_AnonymousMethod.csproj", "{BA6E2B34-6799-45C7-ABE7-B4ED3EDE4716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-5_LambdaExpression_AnonymousMethod", "Ex8-5_LambdaExpression_AnonymousMethod\Ex8-5_LambdaExpression_AnonymousMethod.csproj", "{BA6E2B34-6799-45C7-ABE7-B4ED3EDE4716}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-6_Lambda_Code", "Ex8-6_Lambda_Code\Ex8-6_Lambda_Code.csproj", "{152C656F-2332-4CE5-ADBF-9B0EE0736C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-6_Lambda_Code", "Ex8-6_Lambda_Code\Ex8-6_Lambda_Code.csproj", "{152C656F-2332-4CE5-ADBF-9B0EE0736C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-7_Func_Action_Delegate", "Ex8-7_Func_Action_Delegate\Ex8-7_Func_Action_Delegate.csproj", "{3A920FC9-12C9-4425-8E71-29FFA9CF0440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8-7_Func_Action_Delegate", "Ex8-7_Func_Action_Delegate\Ex8-7_Func_Action_Delegate.csproj", "{3A920FC9-12C9-4425-8E71-29FFA9CF0440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit8-8-1-2_ForEach", "Unit8-8-1-2_ForEach\Unit8-8-1-2_ForEach.csproj", "{229D7988-083C-4BC7-95CC-00887B131DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-8_FindAll", "Ex8-8_FindAll\Ex8-8_FindAll.csproj", "{0C5A18ED-2B90-4787-AAFB-C4EC30681830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8-9_Where", "Ex8-9_Where\Ex8-9_Where.csproj", "{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit8-8-1-2_Select", "Unit8-8-1-2_Select\Unit8-8-1-2_Select.csproj", "{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{3A920FC9-12C9-4425-8E71-29FFA9CF0440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A920FC9-12C9-4425-8E71-29FFA9CF0440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A920FC9-12C9-4425-8E71-29FFA9CF0440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229D7988-083C-4BC7-95CC-00887B131DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229D7988-083C-4BC7-95CC-00887B131DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229D7988-083C-4BC7-95CC-00887B131DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229D7988-083C-4BC7-95CC-00887B131DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5A18ED-2B90-4787-AAFB-C4EC30681830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5A18ED-2B90-4787-AAFB-C4EC30681830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5A18ED-2B90-4787-AAFB-C4EC30681830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5A18ED-2B90-4787-AAFB-C4EC30681830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FAC42A-A28A-4693-BFF8-C6299B28FB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F171367-CA13-41BF-BF0C-C0936B3C9DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
