@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33027.164
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-2_OptionalParameter", "Ex9-2_OptionalParameter\Ex9-2_OptionalParameter.csproj", "{EC40D0FC-0B2E-462F-A948-49E24EC15B48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex9-2_OptionalParameter", "Ex9-2_OptionalParameter\Ex9-2_OptionalParameter.csproj", "{EC40D0FC-0B2E-462F-A948-49E24EC15B48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-3_Dynamic", "Ex9-3_Dynamic\Ex9-3_Dynamic.csproj", "{FB5828BB-8036-45A0-B90F-703FAB03945B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex9-3_Dynamic", "Ex9-3_Dynamic\Ex9-3_Dynamic.csproj", "{FB5828BB-8036-45A0-B90F-703FAB03945B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-4_Compiler_Dynamic", "Ex9-4_Compiler_Dynamic\Ex9-4_Compiler_Dynamic.csproj", "{6528A02F-4F62-44E1-B03A-5A2082E58E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex9-4_Compiler_Dynamic", "Ex9-4_Compiler_Dynamic\Ex9-4_Compiler_Dynamic.csproj", "{6528A02F-4F62-44E1-B03A-5A2082E58E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-5_Dynamic_DuckTyping", "Ex9-5_Dynamic_DuckTyping\Ex9-5_Dynamic_DuckTyping.csproj", "{9B5ADB94-40D7-49B2-BB50-4FEC613244CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9-6_PythonCode", "Ex9-6_PythonCode\Ex9-6_PythonCode.csproj", "{BA515BBD-E18F-4E1C-B84A-0890A7B25A2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{6528A02F-4F62-44E1-B03A-5A2082E58E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6528A02F-4F62-44E1-B03A-5A2082E58E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6528A02F-4F62-44E1-B03A-5A2082E58E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5ADB94-40D7-49B2-BB50-4FEC613244CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5ADB94-40D7-49B2-BB50-4FEC613244CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5ADB94-40D7-49B2-BB50-4FEC613244CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5ADB94-40D7-49B2-BB50-4FEC613244CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA515BBD-E18F-4E1C-B84A-0890A7B25A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA515BBD-E18F-4E1C-B84A-0890A7B25A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA515BBD-E18F-4E1C-B84A-0890A7B25A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA515BBD-E18F-4E1C-B84A-0890A7B25A2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
