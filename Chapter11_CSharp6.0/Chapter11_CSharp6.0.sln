@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit11-1_InitializersForAutoProperties", "Unit11-1_InitializersForAutoProperties\Unit11-1_InitializersForAutoProperties.csproj", "{64ACFE8F-10CD-4E29-9E62-54D1B060B3D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit11-1_InitializersForAutoProperties", "Unit11-1_InitializersForAutoProperties\Unit11-1_InitializersForAutoProperties.csproj", "{64ACFE8F-10CD-4E29-9E62-54D1B060B3D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex11-1_LambdaExpression", "Ex11-1_LambdaExpression\Ex11-1_LambdaExpression.csproj", "{B106B2CA-740E-4495-A6FC-4C48FDAF575B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex11-1_LambdaExpression", "Ex11-1_LambdaExpression\Ex11-1_LambdaExpression.csproj", "{B106B2CA-740E-4495-A6FC-4C48FDAF575B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex11-2_enum_const_usingstatic", "Ex11-2_enum_const_usingstatic\Ex11-2_enum_const_usingstatic.csproj", "{E5B0B9CA-E76E-4DE5-9B3A-929F4044A412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex11-2_enum_const_usingstatic", "Ex11-2_enum_const_usingstatic\Ex11-2_enum_const_usingstatic.csproj", "{E5B0B9CA-E76E-4DE5-9B3A-929F4044A412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit11-4_null_ConditionalOperator", "Unit11-4_null_ConditionalOperator\Unit11-4_null_ConditionalOperator.csproj", "{124849C9-DE53-4878-BDA0-8E36DFA6EBE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit11-4_null_ConditionalOperator", "Unit11-4_null_ConditionalOperator\Unit11-4_null_ConditionalOperator.csproj", "{124849C9-DE53-4878-BDA0-8E36DFA6EBE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit11-5_String_Interpolation", "Unit11-5_String_Interpolation\Unit11-5_String_Interpolation.csproj", "{0423DAAF-E551-425C-B1C3-C4EE4CE6DCE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit11-5_String_Interpolation", "Unit11-5_String_Interpolation\Unit11-5_String_Interpolation.csproj", "{0423DAAF-E551-425C-B1C3-C4EE4CE6DCE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex11-3_nameof_Identifier", "Ex11-3_nameof_Identifier\Ex11-3_nameof_Identifier.csproj", "{BAD9B914-1EDF-418C-A197-401D9F912DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex11-3_nameof_Identifier", "Ex11-3_nameof_Identifier\Ex11-3_nameof_Identifier.csproj", "{BAD9B914-1EDF-418C-A197-401D9F912DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit11-7_Dictionary_IndexInitialization", "Unit11-7_Dictionary_IndexInitialization\Unit11-7_Dictionary_IndexInitialization.csproj", "{1C80134B-270B-4BD7-BF0B-492AE57E9DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit11-8_ExceptionFilters", "Unit11-8_ExceptionFilters\Unit11-8_ExceptionFilters.csproj", "{7AE963AB-EED1-4FC1-B807-BC2B53094ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex11-4_Exception_Duplication", "Ex11-4_Exception_Duplication\Ex11-4_Exception_Duplication.csproj", "{2733056C-4245-470F-9CD9-0E01B986601C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit11-9_CollectionInit_ExtensionMethod_Add", "Unit11-9_CollectionInit_ExtensionMethod_Add\Unit11-9_CollectionInit_ExtensionMethod_Add.csproj", "{3987E1A6-DD0A-4998-88F7-FA944B484867}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{BAD9B914-1EDF-418C-A197-401D9F912DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAD9B914-1EDF-418C-A197-401D9F912DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAD9B914-1EDF-418C-A197-401D9F912DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C80134B-270B-4BD7-BF0B-492AE57E9DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C80134B-270B-4BD7-BF0B-492AE57E9DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C80134B-270B-4BD7-BF0B-492AE57E9DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C80134B-270B-4BD7-BF0B-492AE57E9DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE963AB-EED1-4FC1-B807-BC2B53094ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE963AB-EED1-4FC1-B807-BC2B53094ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE963AB-EED1-4FC1-B807-BC2B53094ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE963AB-EED1-4FC1-B807-BC2B53094ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2733056C-4245-470F-9CD9-0E01B986601C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2733056C-4245-470F-9CD9-0E01B986601C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2733056C-4245-470F-9CD9-0E01B986601C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2733056C-4245-470F-9CD9-0E01B986601C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3987E1A6-DD0A-4998-88F7-FA944B484867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3987E1A6-DD0A-4998-88F7-FA944B484867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3987E1A6-DD0A-4998-88F7-FA944B484867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3987E1A6-DD0A-4998-88F7-FA944B484867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
