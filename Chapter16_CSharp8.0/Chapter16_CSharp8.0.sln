@@ -3,31 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-1_nullable", "Unit16-1_nullable\Unit16-1_nullable.csproj", "{FA3D7236-4FA3-4C34-983D-47F8D9A4BF7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-1_nullable", "Unit16-1_nullable\Unit16-1_nullable.csproj", "{FA3D7236-4FA3-4C34-983D-47F8D9A4BF7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-1_null", "Unit16-1_null\Unit16-1_null.csproj", "{A403433E-8114-43D1-824B-A37470A1DBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-1_null", "Unit16-1_null\Unit16-1_null.csproj", "{A403433E-8114-43D1-824B-A37470A1DBAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-2_AsynchronousStream", "Unit16-2_AsynchronousStream\Unit16-2_AsynchronousStream.csproj", "{FDE3F804-CE17-46DD-B463-FA6E09F89DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-2_AsynchronousStream", "Unit16-2_AsynchronousStream\Unit16-2_AsynchronousStream.csproj", "{FDE3F804-CE17-46DD-B463-FA6E09F89DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-3_Index_Range", "Unit16-3_Index_Range\Unit16-3_Index_Range.csproj", "{C18DCCC8-90F4-4758-A88E-C843C8C26427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-3_Index_Range", "Unit16-3_Index_Range\Unit16-3_Index_Range.csproj", "{C18DCCC8-90F4-4758-A88E-C843C8C26427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-4_using", "Unit16-4_using\Unit16-4_using.csproj", "{5D168EB2-9500-45AF-8E41-B57A04A6C7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-4_using", "Unit16-4_using\Unit16-4_using.csproj", "{5D168EB2-9500-45AF-8E41-B57A04A6C7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-5_Dispose_ref_struct", "Unit16-5_Dispose_ref_struct\Unit16-5_Dispose_ref_struct.csproj", "{3FB3AC73-02C3-46D3-8E2C-99F30F527836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-5_Dispose_ref_struct", "Unit16-5_Dispose_ref_struct\Unit16-5_Dispose_ref_struct.csproj", "{3FB3AC73-02C3-46D3-8E2C-99F30F527836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-6_StaticLocalFunc", "Unit16-6_StaticLocalFunc\Unit16-6_StaticLocalFunc.csproj", "{2EAF6BEA-DC10-4B4C-AA44-C19959252A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-6_StaticLocalFunc", "Unit16-6_StaticLocalFunc\Unit16-6_StaticLocalFunc.csproj", "{2EAF6BEA-DC10-4B4C-AA44-C19959252A93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-7_PatternMatching", "Unit16-7_PatternMatching\Unit16-7_PatternMatching.csproj", "{227ABAFC-DE73-46B0-A77F-6DC2BC8312FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-7_PatternMatching", "Unit16-7_PatternMatching\Unit16-7_PatternMatching.csproj", "{227ABAFC-DE73-46B0-A77F-6DC2BC8312FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-7-2_PropertyPattern", "Unit16-7-2_PropertyPattern\Unit16-7-2_PropertyPattern.csproj", "{D38D83D2-54A8-4F5C-A290-B82F77EED990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-7-2_PropertyPattern", "Unit16-7-2_PropertyPattern\Unit16-7-2_PropertyPattern.csproj", "{D38D83D2-54A8-4F5C-A290-B82F77EED990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-7-3_TuplePattern", "Unit16-7-3_TuplePattern\Unit16-7-3_TuplePattern.csproj", "{374F2C14-2F05-47B2-BAC4-811BE66CD703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-7-3_TuplePattern", "Unit16-7-3_TuplePattern\Unit16-7-3_TuplePattern.csproj", "{374F2C14-2F05-47B2-BAC4-811BE66CD703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-7-4_LocationPattern", "Unit16-7-4_LocationPattern\Unit16-7-4_LocationPattern.csproj", "{3199A174-8BB1-4266-9C0D-247B83EF1417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-7-4_LocationPattern", "Unit16-7-4_LocationPattern\Unit16-7-4_LocationPattern.csproj", "{3199A174-8BB1-4266-9C0D-247B83EF1417}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-7-5_RecursionPattern", "Unit16-7-5_RecursionPattern\Unit16-7-5_RecursionPattern.csproj", "{AA043D43-4439-4C9A-AE08-69E908FF92EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-7-5_RecursionPattern", "Unit16-7-5_RecursionPattern\Unit16-7-5_RecursionPattern.csproj", "{AA043D43-4439-4C9A-AE08-69E908FF92EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-8_Default_InterfaceMethod", "Unit16-8_Default_InterfaceMethod\Unit16-8_Default_InterfaceMethod.csproj", "{84A3D046-9450-412C-ABE5-674351BCE0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-8_Default_InterfaceMethod", "Unit16-8_Default_InterfaceMethod\Unit16-8_Default_InterfaceMethod.csproj", "{84A3D046-9450-412C-ABE5-674351BCE0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-9_NullCoalescingAssignmentOperator", "Unit16-9_NullCoalescingAssignmentOperator\Unit16-9_NullCoalescingAssignmentOperator.csproj", "{FE73E3CF-B848-414B-93D4-D6C41C56E089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-10_Prefix", "Unit16-10_Prefix\Unit16-10_Prefix.csproj", "{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-11_PrimaryExpression_stackalloc", "Unit16-11_PrimaryExpression_stackalloc\Unit16-11_PrimaryExpression_stackalloc.csproj", "{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{84A3D046-9450-412C-ABE5-674351BCE0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A3D046-9450-412C-ABE5-674351BCE0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A3D046-9450-412C-ABE5-674351BCE0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE73E3CF-B848-414B-93D4-D6C41C56E089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE73E3CF-B848-414B-93D4-D6C41C56E089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE73E3CF-B848-414B-93D4-D6C41C56E089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE73E3CF-B848-414B-93D4-D6C41C56E089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

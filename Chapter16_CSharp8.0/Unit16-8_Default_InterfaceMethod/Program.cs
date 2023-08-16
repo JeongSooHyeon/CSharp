@@ -62,7 +62,7 @@ class Program
         // ConsoleLogger 클래스는 Log 메서드를 구현하지 않았으므로
         // ILog 인터페이스로 형변환해 호출
         (x as ILog).Log("test");
-
+ 
         // 인터페이스 타입의 변수로 선언해 사용
         ILog x1 = new ConsoleLogger();
         x1.Log("test");
