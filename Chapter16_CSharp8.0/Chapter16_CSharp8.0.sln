@@ -29,11 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-7-5_RecursionPattern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-8_Default_InterfaceMethod", "Unit16-8_Default_InterfaceMethod\Unit16-8_Default_InterfaceMethod.csproj", "{84A3D046-9450-412C-ABE5-674351BCE0DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-9_NullCoalescingAssignmentOperator", "Unit16-9_NullCoalescingAssignmentOperator\Unit16-9_NullCoalescingAssignmentOperator.csproj", "{FE73E3CF-B848-414B-93D4-D6C41C56E089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-9_NullCoalescingAssignmentOperator", "Unit16-9_NullCoalescingAssignmentOperator\Unit16-9_NullCoalescingAssignmentOperator.csproj", "{FE73E3CF-B848-414B-93D4-D6C41C56E089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-10_Prefix", "Unit16-10_Prefix\Unit16-10_Prefix.csproj", "{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-10_Prefix", "Unit16-10_Prefix\Unit16-10_Prefix.csproj", "{BDA5BA1A-2F2B-4241-B0DB-73731D8E0C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-11_PrimaryExpression_stackalloc", "Unit16-11_PrimaryExpression_stackalloc\Unit16-11_PrimaryExpression_stackalloc.csproj", "{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit16-11_PrimaryExpression_stackalloc", "Unit16-11_PrimaryExpression_stackalloc\Unit16-11_PrimaryExpression_stackalloc.csproj", "{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-12_Generic_Uunmanaged", "Unit16-12_Generic_Uunmanaged\Unit16-12_Generic_Uunmanaged.csproj", "{E4F21986-3986-45E0-A558-D3388A9BF0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit16-13_Struct_Readonly", "Unit16-13_Struct_Readonly\Unit16-13_Struct_Readonly.csproj", "{A0D41932-E3E4-4512-BE18-C1B00E0FBC14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DCF5D00-89E6-44F9-80AF-53D20E5CA1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F21986-3986-45E0-A558-D3388A9BF0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F21986-3986-45E0-A558-D3388A9BF0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F21986-3986-45E0-A558-D3388A9BF0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F21986-3986-45E0-A558-D3388A9BF0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D41932-E3E4-4512-BE18-C1B00E0FBC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D41932-E3E4-4512-BE18-C1B00E0FBC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D41932-E3E4-4512-BE18-C1B00E0FBC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D41932-E3E4-4512-BE18-C1B00E0FBC14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
