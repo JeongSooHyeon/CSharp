@@ -9,21 +9,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-1-1_init", "Unit17-1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-1-2_with_Initialize", "Unit17-1-2_with_Initialize\Unit17-1-2_with_Initialize.csproj", "{F082AA4F-C157-4E87-9C5B-464A2C7238D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-2_Target-typed-new-expression", "Unit17-2_Target-typed-new-expression\Unit17-2_Target-typed-new-expression.csproj", "{6B2D4C5B-7129-46E8-A8E4-2D258DB6F9E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-2_Target-typed-new-expression", "Unit17-2_Target-typed-new-expression\Unit17-2_Target-typed-new-expression.csproj", "{6B2D4C5B-7129-46E8-A8E4-2D258DB6F9E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-3_Conditional-TypeInference", "Unit17-3_Conditional-TypeInference\Unit17-3_Conditional-TypeInference.csproj", "{9F5BFCFE-E689-4372-8BD3-64EC06CE79DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-3_Conditional-TypeInference", "Unit17-3_Conditional-TypeInference\Unit17-3_Conditional-TypeInference.csproj", "{9F5BFCFE-E689-4372-8BD3-64EC06CE79DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-4_AttributesOnLocalFunc", "Unit17-4_AttributesOnLocalFunc\Unit17-4_AttributesOnLocalFunc.csproj", "{B79DA568-E1FE-4562-BBC1-0F5F5E730A94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-4_AttributesOnLocalFunc", "Unit17-4_AttributesOnLocalFunc\Unit17-4_AttributesOnLocalFunc.csproj", "{B79DA568-E1FE-4562-BBC1-0F5F5E730A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-5-1_Static-AnonymousFunc", "Unit17-5-1_Static-AnonymousFunc\Unit17-5-1_Static-AnonymousFunc.csproj", "{41B90B44-2251-499F-A70F-323E0BEDFA52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-5-1_Static-AnonymousFunc", "Unit17-5-1_Static-AnonymousFunc\Unit17-5-1_Static-AnonymousFunc.csproj", "{41B90B44-2251-499F-A70F-323E0BEDFA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-5-2_AnonymousFunc-DiscardParameters", "Unit17-5-2_AnonymousFunc-DiscardParameters\Unit17-5-2_AnonymousFunc-DiscardParameters.csproj", "{A0C84042-C4A4-4AFC-9AC9-4D65421CCF23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-5-2_AnonymousFunc-DiscardParameters", "Unit17-5-2_AnonymousFunc-DiscardParameters\Unit17-5-2_AnonymousFunc-DiscardParameters.csproj", "{A0C84042-C4A4-4AFC-9AC9-4D65421CCF23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-5-2-1_Anonymous-Lambda-Discard", "Unit17-5-2-1_Anonymous-Lambda-Discard\Unit17-5-2-1_Anonymous-Lambda-Discard.csproj", "{1B72F479-6757-4B97-A8EB-CBA598B87AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-5-2-1_Anonymous-Lambda-Discard", "Unit17-5-2-1_Anonymous-Lambda-Discard\Unit17-5-2-1_Anonymous-Lambda-Discard.csproj", "{1B72F479-6757-4B97-A8EB-CBA598B87AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-6_TopLevelStatements", "Unit17-6_TopLevelStatements\Unit17-6_TopLevelStatements.csproj", "{C068495A-561C-4F37-8191-8DF1957E5721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-6_TopLevelStatements", "Unit17-6_TopLevelStatements\Unit17-6_TopLevelStatements.csproj", "{C068495A-561C-4F37-8191-8DF1957E5721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-7_PatternMatchingEnhancements", "Unit17-7_PatternMatchingEnhancements\Unit17-7_PatternMatchingEnhancements.csproj", "{66625C45-C021-4D0A-A2A2-C1C2CE61C999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit17-7_PatternMatchingEnhancements", "Unit17-7_PatternMatchingEnhancements\Unit17-7_PatternMatchingEnhancements.csproj", "{66625C45-C021-4D0A-A2A2-C1C2CE61C999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-8_ModuleInitializers", "Unit17-8_ModuleInitializers\Unit17-8_ModuleInitializers.csproj", "{8AF218F9-FE34-4221-AC29-893B5F13F6E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-9_Covariant-ReturnTypes", "Unit17-9_Covariant-ReturnTypes\Unit17-9_Covariant-ReturnTypes.csproj", "{4CAC47A9-8693-4D81-97B3-EBCDE3C83174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-10_Extension-GetEnumerator", "Unit17-10_Extension-GetEnumerator\Unit17-10_Extension-GetEnumerator.csproj", "{CC03680D-9D2F-4E15-8300-E3DFACCC4162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-11_PartialMethods", "Unit17-11_PartialMethods\Unit17-11_PartialMethods.csproj", "{4EFD13AF-3A82-4515-A2E2-B764B0F7A72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-12_LocalsinitFlag", "Unit17-12_LocalsinitFlag\Unit17-12_LocalsinitFlag.csproj", "{E2A6D31E-893E-4DEA-AC7C-ECE42BED84F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-13_Native-Ints", "Unit17-13_Native-Ints\Unit17-13_Native-Ints.csproj", "{607D99FA-953A-47D9-9C29-62FC78329202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-15_TypeParameterAnnotations", "Unit17-15_TypeParameterAnnotations\Unit17-15_TypeParameterAnnotations.csproj", "{7ADF9756-77A0-404D-9980-9A8B332E24D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit17-15-1", "Unit17-15-1\Unit17-15-1.csproj", "{6AE3CDA9-A70B-4332-B860-CE548B399B72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +91,38 @@ Global
 		{66625C45-C021-4D0A-A2A2-C1C2CE61C999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66625C45-C021-4D0A-A2A2-C1C2CE61C999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66625C45-C021-4D0A-A2A2-C1C2CE61C999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF218F9-FE34-4221-AC29-893B5F13F6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF218F9-FE34-4221-AC29-893B5F13F6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF218F9-FE34-4221-AC29-893B5F13F6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF218F9-FE34-4221-AC29-893B5F13F6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAC47A9-8693-4D81-97B3-EBCDE3C83174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAC47A9-8693-4D81-97B3-EBCDE3C83174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAC47A9-8693-4D81-97B3-EBCDE3C83174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC47A9-8693-4D81-97B3-EBCDE3C83174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC03680D-9D2F-4E15-8300-E3DFACCC4162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC03680D-9D2F-4E15-8300-E3DFACCC4162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC03680D-9D2F-4E15-8300-E3DFACCC4162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC03680D-9D2F-4E15-8300-E3DFACCC4162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFD13AF-3A82-4515-A2E2-B764B0F7A72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFD13AF-3A82-4515-A2E2-B764B0F7A72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFD13AF-3A82-4515-A2E2-B764B0F7A72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFD13AF-3A82-4515-A2E2-B764B0F7A72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A6D31E-893E-4DEA-AC7C-ECE42BED84F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A6D31E-893E-4DEA-AC7C-ECE42BED84F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A6D31E-893E-4DEA-AC7C-ECE42BED84F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A6D31E-893E-4DEA-AC7C-ECE42BED84F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607D99FA-953A-47D9-9C29-62FC78329202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607D99FA-953A-47D9-9C29-62FC78329202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607D99FA-953A-47D9-9C29-62FC78329202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607D99FA-953A-47D9-9C29-62FC78329202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADF9756-77A0-404D-9980-9A8B332E24D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADF9756-77A0-404D-9980-9A8B332E24D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADF9756-77A0-404D-9980-9A8B332E24D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADF9756-77A0-404D-9980-9A8B332E24D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE3CDA9-A70B-4332-B860-CE548B399B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE3CDA9-A70B-4332-B860-CE548B399B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE3CDA9-A70B-4332-B860-CE548B399B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE3CDA9-A70B-4332-B860-CE548B399B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
