@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit18-1-1_RecordsStructs", "Unit18-1-1_RecordsStructs\Unit18-1-1_RecordsStructs.csproj", "{A4D66835-41C4-4E46-8391-D7BAB74FAD06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit18-2_StructImprovement", "Unit18-2_StructImprovement\Unit18-2_StructImprovement.csproj", "{56FB3A42-B12B-40FB-9CBB-F18051F0485B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit18-2-2_Field-Initialization", "Unit18-2-2_Field-Initialization\Unit18-2-2_Field-Initialization.csproj", "{087D19AE-43FC-4D9C-9DD3-123EE00C38D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit18-3_Namespace_Improvement", "Unit18-3_Namespace_Improvement\Unit18-3_Namespace_Improvement.csproj", "{73ECCC87-5941-420E-AB87-BFD58B4F1559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit18-4_Constant-Interpolated_Strings", "Unit18-4_Constant-Interpolated_Strings\Unit18-4_Constant-Interpolated_Strings.csproj", "{23C58328-EE8F-4A08-BEB6-EF71982B3197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4D66835-41C4-4E46-8391-D7BAB74FAD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D66835-41C4-4E46-8391-D7BAB74FAD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D66835-41C4-4E46-8391-D7BAB74FAD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D66835-41C4-4E46-8391-D7BAB74FAD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FB3A42-B12B-40FB-9CBB-F18051F0485B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FB3A42-B12B-40FB-9CBB-F18051F0485B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FB3A42-B12B-40FB-9CBB-F18051F0485B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FB3A42-B12B-40FB-9CBB-F18051F0485B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087D19AE-43FC-4D9C-9DD3-123EE00C38D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087D19AE-43FC-4D9C-9DD3-123EE00C38D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087D19AE-43FC-4D9C-9DD3-123EE00C38D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087D19AE-43FC-4D9C-9DD3-123EE00C38D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ECCC87-5941-420E-AB87-BFD58B4F1559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ECCC87-5941-420E-AB87-BFD58B4F1559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ECCC87-5941-420E-AB87-BFD58B4F1559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ECCC87-5941-420E-AB87-BFD58B4F1559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C58328-EE8F-4A08-BEB6-EF71982B3197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C58328-EE8F-4A08-BEB6-EF71982B3197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C58328-EE8F-4A08-BEB6-EF71982B3197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C58328-EE8F-4A08-BEB6-EF71982B3197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87664EBA-609E-4FA2-BED7-D55888616A03}
+	EndGlobalSection
+EndGlobal
